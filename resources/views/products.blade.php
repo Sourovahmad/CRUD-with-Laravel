@@ -42,7 +42,6 @@
 				<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
 			</a>
       
-		
 
       <form method="POST"  action ="{{ route('destroyproduct',  $a->id )}} "  id="delete-form-{{  $a->id }}"   style="display:none; " >
 				{{csrf_field() }}
